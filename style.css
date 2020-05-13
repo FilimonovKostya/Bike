@@ -7,23 +7,26 @@
 .first_block {
   height: 100vh;
   width: 100%;
-  background: url(/image/header_bike.png) no-repeat;
+  background: url(image/header_bike.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 .icon_firstblock {
   display: inline-block;
-  background-image: url(/image/Icons/Logo.svg);
+  background-image: url(image/Icons/Logo.svg);
   height: 85px;
   width: 94px;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .navigation nav {
   display: flex;
   justify-content: center;
   padding-top: 69px;
 }
+
 nav a {
   margin-left: 4%;
   margin-right: 4%;
@@ -32,9 +35,11 @@ nav a {
   font-size: 13px;
   text-transform: uppercase;
 }
+
 nav a:not(.icon_firstblock) {
   padding-top: 30px;
 }
+
 .second_block {
   height: 45vh;
   width: 100%;
@@ -43,14 +48,16 @@ nav a:not(.icon_firstblock) {
   flex-direction: column;
   align-items: center;
 }
+
 .icon_second_block {
-  background: url(/image/Icons/Icon.svg);
+  background: url(image/Icons/Icon.svg);
   background-repeat: no-repeat;
   margin-top: 117px;
   margin-bottom: 34px;
   height: 52px;
   width: 50px;
 }
+
 .prg_second_block {
   width: 1079px;
   text-align: center;
@@ -58,34 +65,39 @@ nav a:not(.icon_firstblock) {
   color: #848789;
   font-size: 18px;
 }
+
 .second_block h1 {
   font-size: 18px;
   text-transform: uppercase;
   color: #353738;
 }
+
 .third_block {
   height: 600px;
   width: 100%;
   display: flex;
 }
+
 .bicycle_company {
   height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/image/main_bike.png);
+  background: url(image/main_bike.png);
   width: 60%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 .bikeee {
-  background: url(/image/Icons/bicycle.svg) no-repeat;
+  background: url(image/Icons/bicycle.svg) no-repeat;
   height: 50%;
 
   width: 20%;
   background-size: contain;
 }
+
 .bikeee span {
   display: inline-block;
   color: white;
@@ -95,25 +107,30 @@ nav a:not(.icon_firstblock) {
   margin-left: 24%;
   letter-spacing: 2px;
 }
+
 .bikeee .adad {
   margin-top: -78%;
 }
+
 .bikeee .sa {
   letter-spacing: 4.4px;
 }
+
 .vintage_picture {
   width: 40%;
   height: 100%;
 }
+
 .oliva {
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background: url(/image/Icons/second_icon.svg) no-repeat;
+  background: url(image/Icons/second_icon.svg) no-repeat;
   background-position: 50% 15%;
 }
+
 .oliva h3,
 .borisa h3 {
   text-transform: uppercase;
@@ -121,6 +138,7 @@ nav a:not(.icon_firstblock) {
   margin-bottom: 25px;
   margin-top: 35px;
 }
+
 .oliva p {
   display: inline-block;
   width: 400px;
@@ -131,33 +149,38 @@ nav a:not(.icon_firstblock) {
   font-size: 16px;
   color: #bbbdbe;
 }
+
 .small_picture {
   height: 40%;
   width: initial;
-  background-image: url(/image/small_chair.png);
+  background-image: url(image/small_chair.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 .four_block {
   height: 600px;
   width: 100%;
   display: flex;
 }
+
 .laborisa_chair {
   height: 100%;
   width: 40%;
 }
+
 .borisa {
   width: 100%;
   height: 60%;
-  background: url(/image/Icons/compas.svg) no-repeat;
+  background: url(image/Icons/compas.svg) no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   background-position: 50% 15%;
 }
+
 .borisa p {
   white-space: inherit;
   font-family: myriad-pro, sans-serif;
@@ -168,61 +191,70 @@ nav a:not(.icon_firstblock) {
   display: inline-block;
   width: 400px;
 }
+
 .chair_bike_second {
   width: 100%;
   height: 40%;
-  background: url(/image/undermain_chair.png) no-repeat;
+  background: url(image/undermain_chair.png) no-repeat;
   background-size: cover;
 }
+
 .vintage_bike {
   height: 100%;
   width: 60%;
-  background: url(/image/undermain_bike.png) no-repeat;
+  background: url(image/undermain_bike.png) no-repeat;
   background-size: cover;
 }
 
 .psevdologo {
-  background: url(/image/Icons/psevdologo.svg) no-repeat;
+  background: url(image/Icons/psevdologo.svg) no-repeat;
   height: 310px;
   width: 310px;
   background-size: contain;
   margin-top: 10%;
   margin-left: 40%;
 }
+
 .red_bike {
   width: 100%;
   height: 600px;
   display: flex;
 }
+
 .red_bike_bicycles {
-  background-image: url(/image/redbike.png);
+  background-image: url(image/redbike.png);
   height: 100%;
   width: 33.3%;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .red_bike_bicycles_img {
-  background-image: url(/image/Icons/third_logo.svg);
+  background-image: url(image/Icons/third_logo.svg);
   width: 250px;
   height: 200px;
   background-repeat: no-repeat;
   margin: 150px auto;
 }
+
 .red_bike_retro {
   width: 33.9%;
   height: 100%;
 }
+
 .red_bike_retro_hulot {
   height: 60%;
-  background: url(/image/Icons/third_icon.svg) no-repeat;
+  background: url(image/Icons/third_icon.svg) no-repeat;
   background-position: 50% 15%;
 }
+
 .red_bike_retro_hulot h3 {
   padding-top: 120px;
   text-align: center;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
+
 .red_bike_retro_hulot p {
   text-align: center;
   white-space: inherit;
@@ -234,20 +266,22 @@ nav a:not(.icon_firstblock) {
 }
 
 .red_bike_retro_mavicimg {
-  background-image: url(/image/name_bike.png);
+  background-image: url(image/name_bike.png);
   width: 100%;
   height: 40%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .red_bike_img {
   width: 33.9%;
   height: 100%;
-  background: url(/image/full_bike.png) no-repeat;
+  background: url(image/full_bike.png) no-repeat;
   background-size: cover;
 }
+
 .twiter {
-  background: url(/image/Icons/twiter.svg) no-repeat;
+  background: url(image/Icons/twiter.svg) no-repeat;
   width: 50px;
   height: 50px;
   background-position: 50% 15%;
@@ -257,15 +291,18 @@ nav a:not(.icon_firstblock) {
   color: black;
   background-color: #f7f7f7;
 }
+
 .twiter h3 {
   padding-top: 150px;
   padding-bottom: 80px;
 }
+
 .circle {
   display: flex;
   margin-top: 150px;
   justify-content: center;
 }
+
 .circle a {
   width: 10px;
   height: 10px;
@@ -274,68 +311,79 @@ nav a:not(.icon_firstblock) {
   border-radius: 50%;
   margin: 0 8px;
 }
+
 .circle a:hover {
   background-color: gray;
 }
+
 .wrapper_chairs {
   width: 100%;
   height: 540px;
   display: flex;
 }
+
 .left-right-botom {
   display: flex;
   flex-wrap: wrap;
   width: 33.3%;
   height: 540px;
 }
+
 .left {
-  background: url(/image/footer_chair.png) no-repeat;
+  background: url(image/footer_chair.png) no-repeat;
   background-size: cover;
   width: 50%;
   height: 50%;
 }
+
 .right {
-  background: url(/image/footer_chairs.png) no-repeat;
+  background: url(image/footer_chairs.png) no-repeat;
   background-size: cover;
   width: 50%;
   height: 50%;
 }
+
 .botom_chairs {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/image/footer_mainchair.png);
+  background-image: url(image/footer_mainchair.png);
   height: 50%;
   width: 100%;
 }
+
 .two-bike {
   width: 33.3%;
   height: 540px;
   display: flex;
 }
+
 .one-bike {
-  background-image: url(/image/footer_fullbike.png);
+  background-image: url(image/footer_fullbike.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
   height: 100%;
 }
+
 .second-bike {
-  background-image: url(/image/footer_behindbike.png);
+  background-image: url(image/footer_behindbike.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
   height: 100%;
 }
+
 .shop-now {
   width: 33.3%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+
 .shop-now-green {
   background-blend-mode: multiply;
-  background-image: url(/image/footer_barbike.png);
+  background-image: url(image/footer_barbike.png);
   opacity: 0.6;
   background-color: #58a589;
   background-repeat: no-repeat;
@@ -346,7 +394,7 @@ nav a:not(.icon_firstblock) {
 
 .shop-icon {
   display: block;
-  background-image: url(/image/Icons/bicycle.svg);
+  background-image: url(image/Icons/bicycle.svg);
   width: auto;
   height: 40%;
   background-size: contain;
@@ -354,26 +402,30 @@ nav a:not(.icon_firstblock) {
   margin-left: 40%;
   margin-top: 10%;
 }
+
 .shop-icon h3 {
   color: white;
   text-transform: uppercase;
   padding-top: 86px;
   padding-left: 5px;
 }
+
 .brown-chair {
   width: 50%;
   height: 50%;
-  background-image: url(/image/footer_woodchair.png);
+  background-image: url(image/footer_woodchair.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .bag {
   width: 50%;
   height: 50%;
-  background-image: url(/image/footer_bag.png);
+  background-image: url(image/footer_bag.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .button {
   height: 200px;
   background-color: #282f35;
@@ -381,6 +433,7 @@ nav a:not(.icon_firstblock) {
   align-items: center;
   display: flex;
 }
+
 .btn {
   padding: 15px 50px;
   text-transform: uppercase;
@@ -389,9 +442,11 @@ nav a:not(.icon_firstblock) {
   color: white;
   cursor: pointer;
 }
+
 .btn:hover {
   background-color: #5ce5aa;
 }
+
 .feedback {
   width: 100%;
   height: 470px;
@@ -400,22 +455,26 @@ nav a:not(.icon_firstblock) {
   align-items: center;
   justify-content: space-evenly;
 }
+
 .logo {
-  background: url(/image/Icons/Logo.svg) no-repeat;
+  background: url(image/Icons/Logo.svg) no-repeat;
   height: 85px;
   width: 94px;
   background-size: contain;
   margin-bottom: 20px;
 }
+
 .feedback h2 {
   color: gray;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .text-field {
   width: 400px;
   padding-left: 5%;
   height: 70px;
 }
+
 .feedback-button {
   text-align: center;
   width: 125px;
@@ -427,6 +486,7 @@ nav a:not(.icon_firstblock) {
   cursor: pointer;
   font-size: 20px;
 }
+
 .foter {
   display: flex;
   justify-content: space-around;
@@ -434,22 +494,26 @@ nav a:not(.icon_firstblock) {
   height: 250px;
   align-items: center;
 }
+
 .social {
   width: 155px;
   margin-left: -130px;
 }
+
 .fab {
-  background: url(/image/Icons/linkedin-brands.svg);
+  background: url(image/Icons/linkedin-brands.svg);
   font-size: 30px;
   color: darkorchid;
   cursor: pointer;
   padding: 0 10px;
 }
+
 .name span {
   position: relative;
 }
+
 .name span::after {
-  content: url(/image/Icons/footer_designer.svg);
+  content: url(image/Icons/footer_designer.svg);
   background-position: 50px;
   position: absolute;
   top: -10px;
